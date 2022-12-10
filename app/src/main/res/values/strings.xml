@@ -2,8 +2,11 @@
     <string name="app_name">Premier League Fixtures</string>
     <string name="str_to_fragment_2">Go to Fragment 2</string>
     <string name="str_to_fragment_1">Go to Fragment 1</string>
-    <string name="switch_to_fragments">Fragment 1/Fragment2</string>
+    <string name="switch_to_fragments">Match 1/Match 2</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="MatchNumber_name">MatchNumber:\t</string>>
+    <string name="MatchNumber_value">1</string>>
+    <string name="Date_UTC_name">Date UTC</string>>
+    <string name="Date_UTC_value">2021–08–13 19:00:00Z</string>>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
