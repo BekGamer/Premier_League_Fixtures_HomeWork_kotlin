@@ -19,13 +19,13 @@ class MainActivity : AppCompatActivity() {
         //val fragmentContainerView: FragmentContainerView = findViewById<FragmentContainerView>(R.id.fragmentContainerView)
 
         val switch_1 :Switch = findViewById<Switch>(R.id.switch1)
-        switch_1?.setOnCheckedChangeListener({ _ , isChecked ->
+        switch_1?.setOnCheckedChangeListener { _, isChecked ->
             //fragmentContainerView.
-            if (isChecked)
-            {
-                supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,Fragment2.newInstance("","")).commit()
-            }
-            else supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,Fragment1.newInstance("","")).commit()
-        })
+            if (isChecked) {
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fragmentContainerView, Fragment2.newInstance("", "")).commit()
+            } else supportFragmentManager.beginTransaction()
+                .replace(R.id.fragmentContainerView, Fragment1.newInstance("", "")).commit()
+        }
     }
 }
